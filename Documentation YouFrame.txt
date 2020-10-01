@@ -1,0 +1,52 @@
+YouFrame Application:
+
+- The Front-End is made using Angular
+- The Back-End is made using Spring Boot
+- The database is used mysql using wamppserver
+
+Documentation to run / view your application
+
+The System must have following installed:
+1) Angular
+2) IDE(STS is used)
+3) Visual code
+4) Mysql
+5) Browser
+
+To run/view the application:
+1) 
+-start command promt in the frontend folder
+- and run command "ng serve"
+  this will start the angular services on server
+  
+- Open the https://localhost:4200/ in your browser
+
+2)
+- open the backend folder in Spring Tool Suite IDE
+  and run the ImageUploadApplication.java file 
+  To do that 
+  right click on the file and click on run and select
+  "Run as Java Application"
+- Now the application is running
+- if you are using wamppserver for mysql database
+  go to src/main/resources and open the application.properties
+  file
+- here you can change the username and password of 
+  for your database.
+ 
+3)
+  Now the application is running 
+-click on the choose image button and select image you want to 
+  upload (small image size is preferred for faster proccessing)
+- after selecting the image click on upload button
+- You will receive the message as the image is uploaded successfully
+  or not.
+- The image is stored in the database
+- You can add more images if you wish.
+- To retrieve the image simply put the name of the
+  image and click on getImage button
+- The image would be displayed.
+
+
+Thank you.
+
